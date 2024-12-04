@@ -7,6 +7,38 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Label Content="Worp 1" HorizontalAlignment="Left" Margin="73,24,0,0" VerticalAlignment="Top" Width="52"/>
+        <Label Content="Totaal" HorizontalAlignment="Left" Margin="346,24,0,0" VerticalAlignment="Top" Width="52"/>
+        <Label Content="Worp 2" HorizontalAlignment="Left" Margin="212,24,0,0" VerticalAlignment="Top" Width="52"/>
+        <TextBox x:Name="firstThrowTextBox" HorizontalAlignment="Left" Margin="73,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" Height="28"/>
+        <TextBox x:Name="totalThrowTextBox" HorizontalAlignment="Left" Margin="346,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" Height="28"/>
+        <TextBox x:Name="secondThrowTextBox" HorizontalAlignment="Left" Margin="212,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" Height="28"/>
+        <Label Content="Totaal 2" HorizontalAlignment="Left" Margin="99,141,0,0" VerticalAlignment="Top" Width="60"/>
+        <TextBox x:Name="total2TextBox" HorizontalAlignment="Left" Margin="178,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
+        <Label Content="Totaal" HorizontalAlignment="Left" Margin="322,378,0,0" VerticalAlignment="Top" Width="60" FontWeight="Bold"/>
+        <Label Content="Totaal 12" HorizontalAlignment="Left" Margin="322,331,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Totaal 11" HorizontalAlignment="Left" Margin="322,287,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Totaal 10" HorizontalAlignment="Left" Margin="322,239,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Totaal 9" HorizontalAlignment="Left" Margin="322,191,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Totaal 8" HorizontalAlignment="Left" Margin="322,141,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Totaal 7" HorizontalAlignment="Left" Margin="99,378,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Totaal 6" HorizontalAlignment="Left" Margin="99,331,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Totaal 5" HorizontalAlignment="Left" Margin="99,287,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Totaal 4" HorizontalAlignment="Left" Margin="99,239,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Totaal 3" HorizontalAlignment="Left" Margin="99,191,0,0" VerticalAlignment="Top" Width="60"/>
+        <TextBox x:Name="totalTextBox" HorizontalAlignment="Left" Margin="400,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34" FontWeight="Bold"/>
+        <TextBox x:Name="total12TextBox" HorizontalAlignment="Left" Margin="400,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
+        <TextBox x:Name="total11TextBox" HorizontalAlignment="Left" Margin="400,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
+        <TextBox x:Name="total10TextBox" HorizontalAlignment="Left" Margin="400,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
+        <TextBox x:Name="total9TextBox" HorizontalAlignment="Left" Margin="400,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
+        <TextBox x:Name="total8TextBox" HorizontalAlignment="Left" Margin="400,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
+        <TextBox x:Name="total7TextBox" HorizontalAlignment="Left" Margin="178,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
+        <TextBox x:Name="total6TextBox" HorizontalAlignment="Left" Margin="178,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
+        <TextBox x:Name="total5TextBox" HorizontalAlignment="Left" Margin="178,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
+        <TextBox x:Name="total4TextBox" HorizontalAlignment="Left" Margin="178,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
+        <TextBox x:Name="total3TextBox" HorizontalAlignment="Left" Margin="178,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
+        <Button x:Name="throwButton" Content="Gooi" HorizontalAlignment="Left" Margin="540,189,0,0" VerticalAlignment="Top" Width="130" Height="48"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="540,315,0,0" VerticalAlignment="Top" Width="130" Height="48"/>
+        <Button x:Name="computerButton" Content="Computer" HorizontalAlignment="Left" Margin="540,252,0,0" VerticalAlignment="Top" Width="130" Height="48"/>
     </Grid>
 </Window>
