@@ -37,8 +37,8 @@
         <TextBox x:Name="total5TextBox" HorizontalAlignment="Left" Margin="178,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
         <TextBox x:Name="total4TextBox" HorizontalAlignment="Left" Margin="178,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
         <TextBox x:Name="total3TextBox" HorizontalAlignment="Left" Margin="178,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Height="34"/>
-        <Button x:Name="throwButton" Content="Gooi" HorizontalAlignment="Left" Margin="540,189,0,0" VerticalAlignment="Top" Width="130" Height="48"/>
-        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="540,315,0,0" VerticalAlignment="Top" Width="130" Height="48"/>
-        <Button x:Name="computerButton" Content="Computer" HorizontalAlignment="Left" Margin="540,252,0,0" VerticalAlignment="Top" Width="130" Height="48"/>
+        <Button x:Name="throwButton" Content="Gooi" HorizontalAlignment="Left" Margin="540,189,0,0" VerticalAlignment="Top" Width="130" Height="48" Click="throwButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="540,315,0,0" VerticalAlignment="Top" Width="130" Height="48" Click="closeButton_Click"/>
+        <Button x:Name="computerButton" Content="Computer" HorizontalAlignment="Left" Margin="540,252,0,0" VerticalAlignment="Top" Width="130" Height="48" Click="computerButton_Click"/>
     </Grid>
 </Window>
